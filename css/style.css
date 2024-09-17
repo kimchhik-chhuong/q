@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteanier{
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav'
+    'header header header'
+    'sidebar box banner'
+    'sidebar box banner'
+    'footer footer footer';
+    background-color: #B56576;
+    color: #fff;
+}
+.nav{
+    grid-area: nav;
+    background: #EAAC8B;
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+
+}
+.header{
+    grid-area: header;
+    background: #E56B6F;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+}
+.sidebar{
+    grid-area: sidebar;
+    background: #955361;
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.box{
+    grid-area: box;
+    background: #6D597A;
+    display: grid;
+    grid-template-areas: 
+    'box1 box2 box3';
+}
+button{
+    background: black;
+    border-radius: ;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px 0 0 0;
+}
+.box-1{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.box-2{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.box-3{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.box-4{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.box-5{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.box-6{
+    background: #4a3c53;
+    margin: 10px;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+.banner{
+    grid-area: banner;
+    margin-left: 10px;
+}
+.banner-1{
+    background: #905c68;
+    height: 25vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.banner-2{
+    background: #794d56;
+    height: 25vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 15vh;
+    text-align: center;
+}
+.footer-left{
+    background: #355070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-center{
+    background: #293e58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-right{
+    background: #1b293b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
